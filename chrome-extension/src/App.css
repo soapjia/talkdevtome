@@ -1,0 +1,62 @@
+.App {
+    width: 400px; 
+    height: 500px; 
+    background-color: rgb(218, 254, 254);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .circle-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(224, 221, 221, 0.2);
+    border-radius: 10%;    
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #f39c12;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .name {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .role {
+    margin-top: 2px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+  }
