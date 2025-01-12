@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import duckImage from './duck.jpg';
 
 const Chatbot = () => {
   useEffect(() => {
@@ -17,7 +18,14 @@ const Chatbot = () => {
               mode: 'embedded',
               target: document.getElementById('flat-chat'), // Ensure this element exists
             },
-            autostart: false,
+            assistant: {
+              //title: "Speak your Dev!",
+              //description: "How can I help you today?",
+              //image: duckImage,
+              // color: "#dafefe",
+              stylesheet: "/chatbot.css" //link to your self-hosted stylesheet
+            },
+            autostart: true,
           });
         } else {
           console.error('Voiceflow chat object is not available.');

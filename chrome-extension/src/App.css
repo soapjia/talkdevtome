@@ -35,11 +35,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
     padding: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 6px rgba(224, 221, 221, 0.2);
     border-radius: 10%;    
+  }
+
+  .circle-wrapper:hover {
+    cursor: pointer;
+    
   }
   
   .circle {

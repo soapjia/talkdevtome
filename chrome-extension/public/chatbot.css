@@ -1,0 +1,23 @@
+/* Customize the chatbot header */
+.vfrc-chat-header {
+    background-color: #a0002d;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Customize user messages */
+.vfrc-message-user {
+    background-color: #283884;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+  
+  /* Customize bot messages */
+.vfrc-message-agent {
+    background-color: #0c2f3d;
+    color: rgb(185, 15, 15);
+    padding: 10px;
+    border-radius: 8px;
+}
