@@ -23,7 +23,7 @@ const Chatbot = () => {
               //description: "How can I help you today?",
               //image: duckImage,
               // color: "#dafefe",
-              stylesheet: "/chatbot.css" //link to your self-hosted stylesheet
+              stylesheet: "https://github.com/soapjia/talkdevtome/blob/main/chrome-extension/public/chatbot.css" //link to your self-hosted stylesheet
             },
             autostart: true,
           });
