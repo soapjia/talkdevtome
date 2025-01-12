@@ -2,7 +2,7 @@
     width: 400px; 
     height: 500px; 
     background-color: rgb(218, 254, 254);
-    overflow: hidden;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
