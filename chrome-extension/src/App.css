@@ -2,7 +2,7 @@
     width: 400px; 
     height: 500px; 
     background-color: rgb(218, 254, 254);
-    background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient colors */
+    background: linear-gradient(#ffffff, #caeeff, #87d5ff); /* Gradient colors */
     overflow-y: auto;
     display: flex;
     flex-direction: column;
