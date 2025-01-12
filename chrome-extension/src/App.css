@@ -1,13 +1,23 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0; 
+  background-color: #051038; 
+}
+
 .App {
     width: 400px; 
     height: 500px; 
     background-color: rgb(218, 254, 254);
-    background: linear-gradient(#ffffff, #caeeff, #87d5ff); /* Gradient colors */
+    background: linear-gradient(#ffffff, #caeeff, #87d5ff);
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
 }
 
 .title {
@@ -43,10 +53,10 @@
 
   .circle-wrapper:hover {
     cursor: pointer;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
-    transform: scale(1.1); /* Slight zoom-in effect */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
-    background-color: #f4f4f4; /* Background color change */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1); 
+    transition: all 0.3s ease-in-out; 
+    background-color: #f4f4f4; 
 }
   
   .circle {
@@ -60,6 +70,7 @@
   .name {
     margin-top: 10px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
   }
 
   .role {
