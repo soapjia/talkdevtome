@@ -64,7 +64,7 @@ function MainPage() {
             <div className="role">UX Researcher</div>
           </div>
           <div className="circle-wrapper" onClick={() => handleCircleClick("Business Dev")}>
-            <div className="circle" style={{ backgroundImage: `url(${bubbleImage})` }}></div>
+            <div className="circle" style={{ backgroundImage: `url(${knifeImage})` }}></div>
             <div className="name">Betty</div>
             <div className="role">Business Dev</div>
           </div>

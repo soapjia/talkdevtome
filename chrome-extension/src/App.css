@@ -2,6 +2,7 @@
     width: 400px; 
     height: 500px; 
     background-color: rgb(218, 254, 254);
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient colors */
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -42,8 +43,11 @@
 
   .circle-wrapper:hover {
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(224, 221, 221, 0.2);
-  }
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    transform: scale(1.1); /* Slight zoom-in effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+    background-color: #f4f4f4; /* Background color change */
+}
   
   .circle {
     width: 100px;
