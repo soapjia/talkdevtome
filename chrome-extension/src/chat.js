@@ -1,6 +1,7 @@
 import React from 'react';
 import Chatbot from './chatbot'; 
 import { useNavigate } from 'react-router-dom';
+import './chat.css';
 
 function Chat() {
   const navigate = useNavigate();
@@ -10,11 +11,10 @@ function Chat() {
   }
   return (
     <div className="Chat">
-      <h1>Welcome to the chatbot page</h1>
-      <button onClick={onClick}>Restart</button>
-      <div ClassName="chat-container">
+      <div className="chat-container">
         <Chatbot />
       </div>
+      <button onClick={onClick} className="restart-button">Restart</button>
     </div>
   );
 }

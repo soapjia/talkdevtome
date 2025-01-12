@@ -43,9 +43,23 @@ const Chatbot = () => {
   }, []); // Empty array ensures this only runs once when the component mounts
 
   return (
-    <div id="chatbot-container">
-      {/* This is where the chatbot will be embedded */}
-      <div id="flat-chat"></div>
+    <div
+      id="chatbot-container"
+      style={{
+        width: '300px', // Set container width in pixels
+        height: '400px', // Set container height in pixels
+        border: '1px solid #ccc', // Optional border for visibility
+      }}
+    >
+      {/* Add target element for rendering */}
+      <div
+        id="flat-chat"
+        style={{
+          width: '300px', // Set container width in pixels
+          height: '400px', // Set container height in pixels
+          overflowY: 'auto', // Enable scroll if content overflows
+        }}
+      ></div>
     </div>
   );
 };
